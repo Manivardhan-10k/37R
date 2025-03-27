@@ -108,8 +108,8 @@
 #task 2
 ##unq-the element must be present only once
 ##add it to the list if unq
-tup=(1,2,5,8,3,9,7,2,5,7,12,65,8)
-unq=[1,3,9,12,65]
+# tup=(1,2,5,8,3,9,7,2,5,7,12,65,8)
+# unq=[1,3,9,12,65]
 # unq_tup=set(tup)
 # unq_tup=tuple(unq_tup)
 # print(unq_tup)
