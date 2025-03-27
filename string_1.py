@@ -121,6 +121,6 @@
 
 
 
-string="I am mani, this is python" 
+# string="I am mani, this is python" 
 #replace the first value   "t" "T"
 
