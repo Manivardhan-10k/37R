@@ -121,19 +121,23 @@ import math
 # problem solving: 
 # next nearest prime 
 
-# num=2  #107
-# nxt_prime_not_found=True
-# while nxt_prime_not_found:
-#     num=num+1  #104 105 106 107
-#     fact=0 
-#     for i in range(2,num):
-#         if num%i==0:
-#             fact+=1
-#             break
-#     if fact==0:  #1 1 1
-#         print(f"next prime is {num}")
-#         # break
-#         nxt_prime_not_found=False
+num=100
+original=num
+next_prime=0
+prev_prime=0
+nxt_prime_not_found=True
+while nxt_prime_not_found:
+    num=num+1  #104 105 106 107
+    fact=0 
+    for i in range(2,num):
+        if num%i==0:
+            fact+=1
+            break
+    if fact==0:  #1 1 1
+        print(f"next prime is {num}")
+        # break
+        next_prime=num
+        nxt_prime_not_found=False
 
 
 
@@ -152,3 +156,22 @@ import math
 #     b=c #
 
 
+#prev prime 
+
+num =original #23 
+for i in range(num-1,1,-1):
+    fact=0
+    for j in range(2,i):
+        if i%j==0:
+            fact+=1  #1
+            break
+    if fact==0:
+        print(f"the prev prime is {i}")
+        prev_prime=i
+        break
+if next_prime-original>original-prev_prime:   ##59-53 >53-47
+    print(prev_prime, "is the nearest")
+elif original-prev_prime>next_prime-original: #
+    print(next_prime,"is the nearest")
+else:
+    print("both are at equal distance")
