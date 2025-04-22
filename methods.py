@@ -108,11 +108,10 @@
 #     else:
 #         print("invalid")
 
-string="abracadabra" #abrakadabra
-ind=string.index("c") 
-char="k"
-
-string=list(string)
-string[ind]=char 
-string="".join(string)
-print(string)
+# string="abracadabra" #abrakadabra
+# ind=string.index("c") 
+# char="k"
+# string=list(string)
+# string[ind]=char 
+# string="".join(string)
+# print(string)
