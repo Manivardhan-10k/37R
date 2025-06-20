@@ -1,0 +1,39 @@
+selectors in CSS:
+
+simple selectors 
+*--> universal selector
+element selector -- 
+class . 
+id  #
+
+combination 
+child 
+descendant 
+general sibling 
+adjacent sibling 
+
+
+attribute selector
+we can style the elements based on the attributes
+
+element[property=value]{
+    styling
+}
+
+
+
+
+
+pseudo classes:
+
+
+
+
+
+
+
+
+
+
+
+pseudo elements

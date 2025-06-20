@@ -1,0 +1,14 @@
+:hover 
+:link
+:active
+:visited 
+:first-child
+:last-child 
+:nth-child 
+:only-of-type 
+:focus 
+:required
+
+
+pseudo-elements 
+the css is used to styling
