@@ -1,0 +1,14 @@
+python is a high level programming language and easy to learn
+it is a oop language 
+both compiled and interpreted language 
+
+
+it has vast number of libraries
+
+
+
+it can communicate with the operating system
+
+
+
+file manager
