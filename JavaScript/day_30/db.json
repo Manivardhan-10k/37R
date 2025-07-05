@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "manivardhan"
+    },
+    {
+      "id": "2",
+      "username": "kalyan"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "mrf bat",
+      "price": 200
+    },
+    {
+      "id": "2",
+      "name": "cricket ball",
+      "price": 200
+    },
+    {
+      "id": "3",
+      "name": "wickets",
+      "price": 1500
+    }
+  ]
+}

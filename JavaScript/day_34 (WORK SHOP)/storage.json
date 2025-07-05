@@ -1,0 +1,26 @@
+{
+  "users": [
+
+    {
+      "id": "9848022339",
+      "username": "manivardhan",
+      "mobile": "9848022339",
+      "password": "secret123",
+      "email": "manivardhan@email.com"
+    },
+    {
+      "id": "1234567890",
+      "username": "shiva",
+      "mobile": "1234567890",
+      "password": "secret124",
+      "email": "shiva@gmail.com"
+    },
+    {
+      "id": "1234567891",
+      "username": "deepak",
+      "mobile": "1234567891",
+      "password": "secret",
+      "email": "deepak@gmail.com"
+    }
+  ]
+}
