@@ -7,8 +7,6 @@
 //ele ->addeventlistener
 
 //get post put/patch delete
-
-
 //truthsy values falsy values
 
 const handleRegister = () => {
@@ -18,18 +16,14 @@ const handleRegister = () => {
   let email = document.getElementById("email").value;
 
 
-  console.log(username,password,mobile,email);
+  // console.log(username,password,mobile,email);
   let mob_exists=window.localStorage.getItem("reg_mobiles")
   mob_exists=JSON.parse(mob_exists)
   if(mob_exists && mob_exists.includes(mobile)){
     alert("user already exists with same mobile number")
   }else{
-    console.log("users not found");
+    // console.log("users not found");
     
-
-
-
-
   let details = {
     id: mobile,
     username: username,
@@ -52,23 +46,18 @@ const handleRegister = () => {
         reg_mob=[]
         reg_mob.push(mobile)
         window.localStorage.setItem("reg_mobiles", JSON.stringify(reg_mob));
-
       }
       else{
-      reg_mob=JSON.parse(reg_mob)
-      reg_mob.push(mobile);
-      window.localStorage.setItem("reg_mobiles", JSON.stringify(reg_mob));
-
+      reg_mob=JSON.parse(reg_mob) //string -array 
+      reg_mob.push(mobile); //new mobile added
+      window.localStorage.setItem("reg_mobiles", JSON.stringify(reg_mob)); //setting again in storage
       }
-      
       location.assign("./success.html");
     })
     .catch((err) => {
       location.assign("./err.html");
     });
 };
-
-
 }
 
 function getusers() {
@@ -89,7 +78,4 @@ function getusers() {
       document.body.append(username, email, line);
     });
   }, 3000);
-
-
-
   }
