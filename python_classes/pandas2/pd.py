@@ -100,3 +100,5 @@ df=pd.read_csv("C:/Users/makam/Downloads/sample_data.csv")
 
 # print(df.loc[0:44])
 # print(df.iloc[0:4])
+
+

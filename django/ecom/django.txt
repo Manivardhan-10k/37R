@@ -1,0 +1,131 @@
+Front-end 
+html 
+css 
+js 
+bootstrap 
+
+
+
+Database 
+mysql  
+
+programming languages 
+python 
+js 
+
+
+3 tier architechture 
+presentaion layer 
+application layer 
+servers/logics
+data layer
+
+req-res life cycle
+
+take req 
+
+process the req /validations
+
+fetch data 
+
+show res 
+
+
+
+
+
+
+
+full stack developers 
+mern stack  -- mongo/mysql  express react node
+django stack  -- django presentaion
+java stack -- spring boot 
+mean stack  - mongo express angular node
+
+
+
+python full stack developers 
+library:
+collection of modules/or functions
+frameworks 
+collection of libraries 
+
+
+flask  -- small to medium application
+django -- large applications
+django rest framework -api building
+
+application programming interface
+
+
+server build 
+
+DRF-
+
+
+mobile/standalone applications 
+desktop applications
+web applications   
+
+
+rest apis 
+soap api -- Simple Object Access Protocol
+graph ql
+
+REpresentational  State Transfer  -REST 
+
+
+
+//virtual environment
+
+py -m venv  venv
+
+py 
+-m 
+venv -- v  environment  
+
+venv   --name of environment    
+
+
+venv/scripts/activate 
+
+
+
+project 
+  --> app1
+  --> app2
+
+
+
+  ->apps -electronics 
+  ->clothes 
+  ->mobiles
+
+
+
+  html -5500 
+  js - 3000 
+  sql -3306 
+  django -8000
+
+
+  //virtual environment
+
+py -m venv  venv
+
+py 
+-m 
+venv -- v  environment  
+
+venv   --name of environment    
+
+
+venv/scripts/activate  
+
+pip install django djangorestframework 
+
+django-admin  startproject   name 
+
+change to project dir 
+
+py manage.py runserver
