@@ -1,0 +1,30 @@
+venv 
+
+step2: install packages 
+
+step3: start project 
+
+step4: start app 
+
+
+step5: project settings->installed apps-> app name 
+
+
+step6: app.views --> create a view 
+       from django.http import Httpresponse,JsonResponse
+
+
+step7 :  create a new file (urls.py) 
+         from django.urls import path 
+         from . import views
+         urlpatterns=[
+            path("endpoint/",view=views.function)
+         ] 
+
+step8: project.urls -->include  
+      path("",include("app.urls")) 
+
+
+step9: run the server 
+
+step 10: in the function pass a parameter self

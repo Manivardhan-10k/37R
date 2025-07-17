@@ -1,0 +1,22 @@
+server/ applications  
+
+
+global environment 
+local environment
+
+
+
+dependencies 
+-g --global  
+-l
+
+
+DJANGO ARCHITECHTURE
+MVT
+M-MODEL 
+V-VIEW 
+T-TEMPLATE
+
+
+MVC 
+MODEL VIEW CONTROLLER
