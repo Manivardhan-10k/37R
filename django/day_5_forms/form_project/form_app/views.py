@@ -28,21 +28,22 @@ def sample(req):
 #         return JsonResponse({"msg":"invalid method for this endpoint"})
     
 
-@csrf_exempt
-def handle_user_login_form_data(req):
-    # print(req.body) 
-    #loads -->converts the json data into object form 
-    # print(json.loads(req.body))
-    user_data=json.loads(req.body)
-    if user_data["username"] and user_data["password"]:
+# @csrf_exempt
+# def handle_user_login_form_data(req):
+#     # print(req.body) 
+#     #loads -->converts the json data into object form 
+#     # print(json.loads(req.body))
+#     user_data=json.loads(req.body)
+#     print(dir(req))
+#     if user_data["username"] and user_data["password"]:
     
-      return user_login(user_data["username"],user_data["password"])
+#       return user_login(user_data["username"],user_data["password"])
 
-def user_login(u,p): 
-    if u=="manivardhan" and p=="secret":
-        return HttpResponse("login successful")
-    else:
-        return HttpResponse("invalid credentials")
+# def user_login(u,p): 
+#     if u=="manivardhan" and p=="secret":
+#         return HttpResponse("login successful")
+#     else:
+#         return HttpResponse("invalid credentials")
     
 
 
