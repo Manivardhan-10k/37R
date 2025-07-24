@@ -1,0 +1,16 @@
+create a database in the mysql
+
+step 1: pip install mysqlclient 
+
+step2:
+settings.py > databases> configure the database 
+
+step3: 
+models.py > create a model (table)
+class tablename(models.Model) 
+
+step4: 
+py manage.py makemigrations 
+
+step5:
+py manage.py migrate
