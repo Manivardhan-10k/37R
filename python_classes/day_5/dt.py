@@ -31,21 +31,21 @@ from datetime import datetime,timedelta
 
 
 #now()
-# print(datetime.now())
+print(datetime.now())
 
 #2025-07-01 
 # 1-7-25
 
-# print(datetime.strptime("25/07/01","%y/%m/%d"))
-# print(datetime.strptime("jul/01/25","%b/%d/%y"))
+print(datetime.strptime("25/07/01","%y/%m/%d"))
+print(datetime.strptime("jul/01/25","%b/%d/%y"))
 
 
 
-# cur=datetime.now() 
-# print(cur)
-# # print(cur.strftime("%d/%Y/%B"))
-# # print(cur.strftime("%m/%d/%y"))
-# print(cur.strftime("%a"))
+cur=datetime.now() 
+print(cur)
+print(cur.strftime("%d/%Y/%B"))
+print(cur.strftime("%m/%d/%y"))
+print(cur.strftime("%a"))
  
 # Y 
 # y  
@@ -56,9 +56,9 @@ from datetime import datetime,timedelta
 # A
 # a
 
-# date="19/09/2003"   #day
-# d_obj=datetime.strptime(date,"%d/%m/%Y")
-# print(d_obj.strftime("%a"))
+date="08/08/2025"   #day
+d_obj=datetime.strptime(date,"%d/%m/%Y")
+print(d_obj.strftime("%a"))
 
 
 # dt = datetime(2025, 6, 1)
