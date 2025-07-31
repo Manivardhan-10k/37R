@@ -1,0 +1,22 @@
+project 
+app
+api 
+model 
+database 
+serializers 
+env 
+
+
+
+
+data security enhancing methods:
+
+encoding --> format is changed  utf-8
+hello  ->      namaste          -> hello
+
+encryption
+hello ->     h8e5l12l12o15  (keys)       --> hello (only works with key)
+
+hashing 
+hello ->  ifmmp  (hashed) 
+         method(hashed,password)  -- true/false

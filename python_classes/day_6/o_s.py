@@ -46,7 +46,6 @@ print(os.getcwd())
 
 
 # os.remove("sample_from_os")
-
 # os.remove("system32")
 
 
