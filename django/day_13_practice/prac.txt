@@ -1,0 +1,19 @@
+data security 
+
+1 -- encoding 
+when the data is sent/transmit  
+-> the data format is changed 
+
+
+2  -- encryption 
+when we are passing data 
+--> we add additional data 
+--> hello --> h8e5l12l12o15 (key) -> hello (key)  
+
+
+3. hashing 
+when we are storing the passwords  
+->  hello ->  "hsfjkshfwgfhjksdhfjkhwegywer892r78924"  hashed password 
+           method(password,hashed password)
+              
+

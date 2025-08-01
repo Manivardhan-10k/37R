@@ -35,12 +35,10 @@ def reg_user(request):
     
 def user_login(req):
     data = json.loads(req.body)
-
     try:
         user = users.objects.get(name=data["name"])
     except users.DoesNotExist:
         return JsonResponse({"error": "User not found"}, status=404)
-
     same = bcrypt.checkpw(
         data["password"].encode("utf-8"),
         user.password.encode("utf-8")
