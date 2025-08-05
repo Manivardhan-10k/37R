@@ -1,0 +1,112 @@
+hashing 
+serializers 
+model 
+environment
+crud 
+db 
+db connect 
+apis -- url+view 
+project creation 
+
+
+
+hashing: 
+to secure the passwords/data  
+
+
+
+client  -----> server    ----> DB
+
+encoding --format change -> original
+encryption --  additional data (keys) --> same key original data
+hashing -- completely transfomed
+
+hello -> iskjskfh   
+bcrypt.hashpw()
+bcrypt.checkpw()
+
+
+
+
+
+what?
+it is python framework  for creating server side applications
+
+how?
+flask
+django
+django rest framework (DRF)   --specially used for creating apis 
+
+
+
+
+Backend is pure logic  
+
+rice,spices,  
+process,
+15
+
+modules 
+url
+view
+database   
+
+
+
+stove-
+pan
+oil -- heat 
+oinions 
+
+
+backend is all about connections 
+
+
+purpose  
+
+
+
+
+apps 
+instagram 
+whatsapp
+youtube
+linkedin
+zepto
+swiggy 
+
+
+vitrual environment 
+
+-- supporting conditions  
+
+django 
+3.13 
+3.12
+c: 
+
+
+django 
+djangorestframework 
+
+mysqlclient 
+django-environ 
+bcrypt
+
+pip -- python installs packages  package manager 
+
+smaller unit   --app
+for better handling ,debugging, modification
+
+
+
+user-data 
+
+1. form data  
+2. json data
+
+get 
+post
+
+
+
