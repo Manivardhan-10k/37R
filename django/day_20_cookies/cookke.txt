@@ -1,0 +1,12 @@
+token -encrypt,decrypt ,"exp" ,"iat"
+
+
+datetime.now() + timedelta(hours=1) 
+
+response /cookies  
+
+
+
+register -->validations +hashing
+login  --->mobile,password  -->success (send cookie+response)//jwt
+products --> cookie ->validate //jwt

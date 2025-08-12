@@ -1,0 +1,19 @@
+JWT --  Json Web Token 
+encryption -- we add additional data(key)  
+decrypt -- same key should be used 
+
+
+
+
+algorithm -- is a set of rules/instructions to perform a task 
+
+key="secret"
+
+word - wseocrretd 
+word - xsoercdret
+
+
+cookie -- it is  small piece of info sent from server to the client
+
+
+D8EjtlAhEfVdAtwvnzrR7eG1cnkl2GXv
