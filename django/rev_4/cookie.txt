@@ -1,0 +1,53 @@
+cookie 
+
+it is a small piece of code/data 
+
+tokens -- validations
+user action tracking/recording --  
+information storing -  save passwords  
+
+e-commerce 
+products 
+cart 
+profile 
+
+--login 
+login ---token ---browser 
+
+
+browser storages 
+
+local storage 
+session storage
+--js 
+cookies
+
+
+
+
+req 
+-> username and password 
+-> if match with values  
+-> create a token 
+-> send with response to cookie
+
+
+response= json/http(msg) 
+response.set_cookie(key="cookie name",value="token",maxage=1800,httponly=True)
+
+
+
+token 
+
+login 
+
+cart 
+
+login
+
+/products 
+login
+
+
+/cart 
+login+ cart 

@@ -1,0 +1,64 @@
+user registration 
+-> send mail
+-> welcome to the app  
+
+
+name
+email
+phone 
+password 
+
+
+
+
+reciever ---> user 
+content -->text/msg 
+
+sender ?
+
+
+manivardhan ---> no .of users
+
+org->  
+
+
+SMTP --> Simple Mail Transfer Protocol
+
+
+SSL -- secure socket layer 
+TLS - Transfer layer 
+
+
+2FA -- password +
+       number /code /fingerprint 
+
+
+google account 
+enable 2FA 
+
+
+
+
+user -->gmail
+port :587 
+TLS :true 
+host -> gmailid 
+password: app password 
+
+
+google account -> security -> enable 2FA  -> app password create with name-> 16char password 
+
+
+django.core.mail import send_mail,email_message
+
+
+
+
+
+
+registration --> validations 
+name -> no numbers 
+email -valid /not 
+password-12 (one uppercase , one lowercase, one number , one special char)
+email-> already exists or not 
+if not exists->send mail with welcome image attachment
