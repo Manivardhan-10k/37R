@@ -1,0 +1,79 @@
+middleware 
+
+
+frontend ->            API  (Application Programming Interface)               ->   backend 
+
+
+backend  server 
+request 
+
+take request
+
+process 
+validation/data fetching /response creation 
+
+
+send response
+
+
+env 
+
+
+CORS 
+Cross Origin Resource Sharing 
+
+
+5500
+
+-->
+
+8000
+
+
+CSRF 
+
+Cross Site Request  Forgery
+
+@csrf_exempt
+
+
+sql injection 
+
+malicious req -> middleware  -> view   -> db connect
+
+
+
+
+req (token) -> view ->res 
+
+req(token) -> middleware ->view -> res -> middleware -> client 
+
+custom middlewares
+
+
+jwt.encode 
+jwt.decode(token,secretkey,["HS256"])
+
+
+class middlewarename:
+
+   def __init__(self, response):
+         self.get_response=response
+          
+   names=["mani","ravi","suresh","ramesh"]
+   def __call__(self,request):
+     validations 
+     true:
+        respose= get_response(request)
+        return response  -> to view
+    false
+        rerurn httpresponse --> to client
+
+
+
+
+
+reg-> 
+validuserMiddleware
+body( mob) 
+invalid user, from middleware
