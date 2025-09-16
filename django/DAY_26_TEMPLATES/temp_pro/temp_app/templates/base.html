@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Django App{% endblock %}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background: #f2f2f2; }
+        a { text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+    <h1>{% block heading %}{% endblock %}</h1>
+    {% block content %}{% endblock %}
+</body>
+</html>

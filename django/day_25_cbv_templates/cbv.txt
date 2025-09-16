@@ -1,0 +1,9 @@
+view 
+
+--> entire logic is written in views 
+
+-> class based view 
+->default behaviours(inheritance)
+
+-> function based views 
+--> entire logic is controlled

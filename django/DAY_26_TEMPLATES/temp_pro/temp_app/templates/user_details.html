@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}User Details{% endblock %}
+{% block heading %}User Details{% endblock %}
+
+{% block content %}
+<ul>
+    <li><strong>ID:</strong> {{ user.id }}</li>
+    <li><strong>Name:</strong> {{ user.name }}</li>
+    <li><strong>Email:</strong> {{ user.email }}</li>
+    <li><strong>Mobile:</strong> {{ user.mobile }}</li>
+    <li><strong>Password:</strong>{{user.password}}</li>
+</ul>
+<a href="{% url 'user_data' %}">Back to User List</a>
+{% endblock %}
